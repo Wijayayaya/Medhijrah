@@ -2,7 +2,7 @@
 <!-- CSS -->
 <style>
     /* Chat Widget Styles */
-    .medhijrah-widget {
+    .medihijrah-widget {
         position: fixed;
         bottom: 20px;
         right: 20px;
@@ -660,7 +660,7 @@
 </style>
 
 <!-- HTML Structure -->
-<div class="medhijrah-widget">
+<div class="medihijrah-widget">
     <!-- Chat Bubble -->
     <div class="chat-bubble" id="chatBubble">
         <div class="chat-bubble-icon">
@@ -698,7 +698,7 @@
     <!-- Chat Window - will be populated by JS -->
     <div class="chat-window" id="chatWindow">
         <div class="chat-header" id="chatHeader">
-            MedHijrah Assistant
+            Medihijrah Assistant
             <div class="chat-close" id="chatClose">×</div>
         </div>
         <div class="chat-body" id="chatBody">
@@ -809,7 +809,7 @@
                         csLastMessageId = Math.max(...data.messages.map(m => m.id));
                     } else {
                         addMessageSafe("bot",
-                            "👋 Halo! Saya customer service MedHijrah. Ada yang bisa saya bantu?");
+                            "👋 Halo! Saya customer service Medihijrah. Ada yang bisa saya bantu?");
                     }
 
                     csInitialized = true;

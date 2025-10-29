@@ -14,7 +14,7 @@ return [
                 'label' => 'App Name', // you know what label it is
                 'rules' => 'required|min:2|max:50', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => 'MEDHIJRAH', // default value if you want
+                'value' => 'MEDIHIJRAH', // default value if you want
             ],
             [
                 'type' => 'text', // input fields type
@@ -23,7 +23,7 @@ return [
                 'label' => 'App Description', // you know what label it is
                 'rules' => 'required', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => 'MedHijrah is an innovative platform that connects with trusted health services. We provide easy access to various medical facilities, specialist doctors and quality health services in the city of Yogyakarta. Our commitment is to improve the health and welfare of the people of Yogyakarta with modern technology and patient-centered services.', // default value if you want
+                'value' => 'Medihijrah is an innovative platform that connects with trusted health services. We provide easy access to various medical facilities, specialist doctors and quality health services in the city of Yogyakarta. Our commitment is to improve the health and welfare of the people of Yogyakarta with modern technology and patient-centered services.', // default value if you want
             ],
             [
                 'type' => 'text', // input fields type
@@ -58,7 +58,7 @@ return [
                 'label' => 'Email', // you know what label it is
                 'rules' => 'required|email', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => 'medhijrah@gmail.com', // default value if you want
+                'value' => 'medihijrah@gmail.com', // default value if you want
             ],
         ],
 
@@ -157,7 +157,7 @@ return [
                 'label' => 'Meta Site Name', // you know what label it is
                 'rules' => 'required', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => 'MedHijrah | Your Gateway to Medical Tourism in Yogyakarta', // default value if you want
+                'value' => 'Medihijrah | Your Gateway to Medical Tourism in Yogyakarta', // default value if you want
             ],
             [
                 'type' => 'text', // input fields type
@@ -166,7 +166,7 @@ return [
                 'label' => 'Meta Description', // you know what label it is
                 'rules' => 'required', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => 'MedHijrah is an innovative information system dedicated to medical tourism in Yogyakarta. Our website provides precise and reliable information on medical services, healthcare facilities, and wellness options. MedHijrah ensures access to top medical care while you enjoy Yogyakarta.', // default value if you want
+                'value' => 'Medihijrah is an innovative information system dedicated to medical tourism in Yogyakarta. Our website provides precise and reliable information on medical services, healthcare facilities, and wellness options. Medihijrah ensures access to top medical care while you enjoy Yogyakarta.', // default value if you want
             ],
             [
                 'type' => 'text', // input fields type
@@ -175,7 +175,7 @@ return [
                 'label' => 'Meta Keyword', // you know what label it is
                 'rules' => 'required', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => 'Medical Tourism, Yogyakarta, Healthcare, Medical Points, Medical Care, Hospitals and Medical Centers, Medical Costs, Alternative and Traditional Medicine, Health Information, Destination, MedHijrah', // default value if you want
+                'value' => 'Medical Tourism, Yogyakarta, Healthcare, Medical Points, Medical Care, Hospitals and Medical Centers, Medical Costs, Alternative and Traditional Medicine, Health Information, Destination, Medihijrah', // default value if you want
             ],
             [
                 'type' => 'text', // input fields type

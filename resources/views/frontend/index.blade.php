@@ -27,7 +27,7 @@
         <div class="relative z-20 mx-auto max-w-screen-xl px-6 py-32 text-center flex flex-col justify-center min-h-screen">
             <!-- Logo with Simple Styling -->
             <div class="mb-12">
-                <img class="h-44 mx-auto" src="{{ asset('img/MEDHIJRAH-blue.png') }}" alt="{{ app_name() }}">
+                <img class="h-44 mx-auto" src="{{ asset('img/MEDIHIJRAH-blue.png') }}" alt="{{ app_name() }}">
             </div>
 
             <!-- Main Title with Gradient Text -->
@@ -624,7 +624,7 @@
                     </div>
                 </div>
                 <h2 class="text-4xl md:text-6xl font-bold text-white mb-8 tracking-tight">
-                    Ready to Experience <span class="text-blue-200">MedHijrah?</span>
+                    Ready to Experience <span class="text-blue-200">Medihijrah?</span>
                 </h2>
                 <p class="text-xl md:text-2xl text-blue-100 mb-12 leading-relaxed">
                     Discover the perfect blend of healthcare excellence and cultural exploration in the heart of Yogyakarta.

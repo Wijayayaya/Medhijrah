@@ -1,7 +1,7 @@
 <footer class="border-2 border-gray-200 dark:border-gray-700 bg-blue-100 dark:bg-gray-800 sm:p-10">
     <div class="mx-auto max-w-screen-xl text-center">
         <a class="flex items-center justify-center text-2xl font-semibold text-gray-900 dark:text-white" href="/">
-            <img class="h-10" src="{{ asset('img/MEDHIJRAH-blue.png') }}" alt="{{ app_name() }} Logo" />
+            <img class="h-10" src="{{ asset('img/MEDIHIJRAH-blue.png') }}" alt="{{ app_name() }} Logo" />
         </a>
         <p class="mx-auto my-6 text-gray-500 dark:text-gray-300 sm:w-1/2">
             {!! setting('meta_description') !!}

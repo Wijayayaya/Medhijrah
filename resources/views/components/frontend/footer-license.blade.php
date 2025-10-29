@@ -7,7 +7,7 @@
                 <div class="sm:w-1/2 text-sm text-gray-500 dark:text-gray-300">
                     Except where otherwise noted, content on this site is created by <a class="hover:underline"
                         href="{{ $author_url }}" rel="#">Laravel 11 Framework</a> and licensed
-                    under <a class="hover:underline" href="https://psti.unisayogya.ac.id/" target="_blank">MedHijrah
+                    under <a class="hover:underline" href="https://psti.unisayogya.ac.id/" target="_blank">Medihijrah
                         Project of
                         Technology Information
                         'Aisyiyah Yogyakarta (2024)

@@ -43,7 +43,7 @@ class BotManController extends Controller
     {
         // Welcome message
         $botman->hears('hi|hello|halo|hai', function ($bot) {
-            $bot->reply('Halo! Selamat datang di MedHijrah FAQ Bot. Ada yang bisa saya bantu?');
+            $bot->reply('Halo! Selamat datang di Medihijrah FAQ Bot. Ada yang bisa saya bantu?');
             $this->showCategoryMenu($bot);
         });
         
@@ -204,16 +204,16 @@ class BotManController extends Controller
     {
         return [
             "Umum" => [
-                "Apa itu MedHijrah?" => "MedHijrah adalah website yang menyediakan informasi lengkap mengenai layanan kesehatan dan destinasi wisata di Yogyakarta, khusus untuk wisatawan medical tourism.",
-                "Apakah MedHijrah bisa dipakai agen perjalanan?" => "Ya, tersedia kolaborasi untuk agen perjalanan dan penyedia layanan kesehatan."
+                "Apa itu Medihijrah?" => "Medihijrah adalah website yang menyediakan informasi lengkap mengenai layanan kesehatan dan destinasi wisata di Yogyakarta, khusus untuk wisatawan medical tourism.",
+                "Apakah Medihijrah bisa dipakai agen perjalanan?" => "Ya, tersedia kolaborasi untuk agen perjalanan dan penyedia layanan kesehatan."
             ],
             "Medical Care" => [
                 "Apa itu fitur Medical Care?" => "Menyediakan info layanan klinik, rumah sakit, dokter, dan perawatan umum.",
-                "Apakah MedHijrah menyediakan informasi tentang layanan rehabilitasi?" => "Ya, terdapat daftar fasilitas yang menawarkan layanan rehabilitasi medis dan terapi."
+                "Apakah Medihijrah menyediakan informasi tentang layanan rehabilitasi?" => "Ya, terdapat daftar fasilitas yang menawarkan layanan rehabilitasi medis dan terapi."
             ],
             "Medical Points" => [
                 "Apa itu fitur Medical Points?" => "Menyediakan lokasi fasilitas medis dekat area wisata.",
-                "Di mana saya bisa menemukan informasi tentang klinik 24 jam?" => "MedHijrah mencantumkan klinik yang beroperasi 24 jam lengkap dengan lokasi dan kontaknya."
+                "Di mana saya bisa menemukan informasi tentang klinik 24 jam?" => "Medihijrah mencantumkan klinik yang beroperasi 24 jam lengkap dengan lokasi dan kontaknya."
             ],
             "Medical Cost" => [
                 "Apa itu fitur Medical Cost?" => "Info biaya untuk berbagai prosedur dan perbandingan antar fasilitas.",
@@ -221,36 +221,36 @@ class BotManController extends Controller
             ],
             "Hospital and Medical Centers" => [
                 "Apa itu fitur Hospital and Medical Centers?" => "Menampilkan profil rumah sakit dan pusat kesehatan di Jogja.",
-                "Apakah MedHijrah menyediakan fitur pencarian rumah sakit berdasarkan lokasi?" => "Ya, fitur Medical Centers memungkinkan Anda mencari berdasarkan lokasi atau fasilitas."
+                "Apakah Medihijrah menyediakan fitur pencarian rumah sakit berdasarkan lokasi?" => "Ya, fitur Medical Centers memungkinkan Anda mencari berdasarkan lokasi atau fasilitas."
             ],
             "Pengobatan Tradisional" => [
                 "Apa itu fitur Alternative and Traditional Medicine?" => "Info tentang pengobatan tradisional seperti jamu, bekam, pijat, dll.",
                 "Bisakah saya melihat ulasan pengguna tentang layanan alternatif?" => "Ya, pengguna bisa membaca dan menulis ulasan terkait pengalaman mereka."
             ],
             "Fitur Website" => [
-                "Apakah MedHijrah tersedia dalam bahasa Inggris?" => "Ya, website ini mendukung multi-bahasa.",
-                "Bisa akses MedHijrah dari HP?" => "Ya, desainnya responsif dan mobile-friendly."
+                "Apakah Medihijrah tersedia dalam bahasa Inggris?" => "Ya, website ini mendukung multi-bahasa.",
+                "Bisa akses Medihijrah dari HP?" => "Ya, desainnya responsif dan mobile-friendly."
             ],
             "Konsultasi" => [
                 "Bisa konsultasi dengan dokter?" => "Tidak, tersedia fitur chat dan form konsultasi."
             ],
             "Pemesanan" => [
-                "Bisa pesan layanan via website?" => "Tidak, MedHijrah hanya website Sistem Informasi untuk medical tourism.",
-                "Apakah saya bisa memesan paket wisata medis langsung dari MedHijrah?" => "Saat ini MedHijrah menyediakan informasi dan kontak penyedia, pemesanan online sedang dikembangkan."
+                "Bisa pesan layanan via website?" => "Tidak, Medihijrah hanya website Sistem Informasi untuk medical tourism.",
+                "Apakah saya bisa memesan paket wisata medis langsung dari Medihijrah?" => "Saat ini Medihijrah menyediakan informasi dan kontak penyedia, pemesanan online sedang dikembangkan."
             ],
             "Live Chat" => [
-                "Bagaimana cara menghubungi layanan customer service MedHijrah?" => "Anda dapat menggunakan fitur Live Chat atau email ke cs@medhijrah.com.",
+                "Bagaimana cara menghubungi layanan customer service Medihijrah?" => "Anda dapat menggunakan fitur Live Chat atau email ke cs@Medihijrah.com.",
                 "Apakah ada biaya tambahan untuk menggunakan fitur Live Chat?" => "Tidak, fitur Live Chat dapat digunakan secara gratis oleh semua pengunjung website."
             ],
             "Layanan Darurat" => [
-                "Apa saja layanan darurat yang tersedia di MedHijrah?" => "MedHijrah mencantumkan IGD, nomor gawat darurat, dan klinik 24 jam di Yogyakarta."
+                "Apa saja layanan darurat yang tersedia di Medihijrah?" => "Medihijrah mencantumkan IGD, nomor gawat darurat, dan klinik 24 jam di Yogyakarta."
             ],
             "Transportasi" => [
-                "Apakah ada layanan antar jemput untuk pasien dari bandara?" => "Beberapa rumah sakit menyediakan layanan antar jemput yang informasinya tersedia di MedHijrah."
+                "Apakah ada layanan antar jemput untuk pasien dari bandara?" => "Beberapa rumah sakit menyediakan layanan antar jemput yang informasinya tersedia di Medihijrah."
             ],
             "Informasi Umum" => [
-                "Dimana saya bisa melihat testimoni dari pengguna MedHijrah?" => "Anda bisa melihat testimoni di halaman utama dan setiap profil rumah sakit.",
-                "Bagaimana MedHijrah mendukung medical tourism berkelanjutan?" => "Dengan menyediakan informasi terpercaya, mendorong kerjasama lokal, dan memperhatikan aspek budaya serta etika wisata."
+                "Dimana saya bisa melihat testimoni dari pengguna Medihijrah?" => "Anda bisa melihat testimoni di halaman utama dan setiap profil rumah sakit.",
+                "Bagaimana Medihijrah mendukung medical tourism berkelanjutan?" => "Dengan menyediakan informasi terpercaya, mendorong kerjasama lokal, dan memperhatikan aspek budaya serta etika wisata."
             ]
         ];
     }

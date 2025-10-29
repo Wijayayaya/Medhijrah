@@ -1,4 +1,4 @@
-// Ambulance Service Integration with Database for MedHijrah Chat
+// Ambulance Service Integration with Database for Medihijrah Chat
 // Uses: App\Http\Controllers\Frontend\AmbulanceServiceController
 console.log("🚑 Loading ambulance service with database integration...");
 

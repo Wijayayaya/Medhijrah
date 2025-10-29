@@ -1,4 +1,4 @@
-// Tawk.to integration for MedHijrah Chat
+// Tawk.to integration for Medihijrah Chat
 let tawkLoaded = false;
 let tawkAttempts = 0;
 

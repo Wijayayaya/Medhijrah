@@ -3,7 +3,7 @@
     <div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
         <!-- Logo -->
         <a class="flex items-center space-x-3 rtl:space-x-reverse" href="/">
-            <img class="h-20" src="{{ asset('img/MEDHIJRAH-blue.png') }}" alt="{{ app_name() }} Logo" />
+            <img class="h-20" src="{{ asset('img/MEDIHIJRAH-blue.png') }}" alt="{{ app_name() }} Logo" />
         </a>
 
         <!-- Mobile menu button -->

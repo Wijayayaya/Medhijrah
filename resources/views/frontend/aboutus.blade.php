@@ -26,14 +26,14 @@
             <!-- Logo with Enhanced Styling -->
             <div class="mb-12 transform hover:scale-105 transition-transform duration-300">
                 <img class="lg:w-80 md:w-72 w-64 object-cover object-center rounded-2xl shadow-2xl border-4 border-white/20 backdrop-blur-sm"
-                    alt="MedHijrah Logo" src="{{ asset('img/MEDHIJRAH-blue.png') }}">
+                    alt="Medihijrah Logo" src="{{ asset('img/MEDIHIJRAH-blue.png') }}">
             </div>
 
             <!-- Hero Content -->
             <div class="text-center lg:w-4/5 w-full">
                 <h1 class="title-font text-5xl md:text-7xl lg:text-8xl mb-8 font-bold text-white tracking-tight">
                     About <span
-                        class="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-cyan-200">MedHijrah</span>
+                        class="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-cyan-200">Medihijrah</span>
                 </h1>
                 <p class="mb-12 text-xl md:text-2xl leading-relaxed text-blue-100 max-w-4xl mx-auto">
                     Bridging Healthcare Excellence with Yogyakarta's Cultural Heritage
@@ -64,7 +64,7 @@
                         Story</span>
                 </div>
                 <h2 class="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-8 tracking-tight">
-                    About <span class="text-blue-600">MedHijrah</span>
+                    About <span class="text-blue-600">Medihijrah</span>
                 </h2>
             </div>
 
@@ -240,7 +240,7 @@
                     Meet Our <span class="text-blue-600">Professionals</span>
                 </h2>
                 <p class="text-xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed">
-                    At MedHijrah, we have a team of professionals dedicated to providing the best health experience for
+                    At Medihijrah, we have a team of professionals dedicated to providing the best health experience for
                     you.
                     Carefully selected to combine the latest medical expertise with typical Jogja hospitality.
                 </p>
@@ -600,7 +600,7 @@
                     </div>
                 </div>
                 <h2 class="text-4xl md:text-6xl font-bold text-white mb-8 tracking-tight">
-                    Ready to Experience <span class="text-blue-200">MedHijrah?</span>
+                    Ready to Experience <span class="text-blue-200">Medihijrah?</span>
                 </h2>
                 <p class="text-xl md:text-2xl text-blue-100 mb-12 leading-relaxed">
                     Discover the perfect blend of healthcare excellence and cultural exploration in the heart of Yogyakarta.

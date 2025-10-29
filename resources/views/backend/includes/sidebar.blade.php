@@ -8,9 +8,9 @@ $notifications_latest = optional($notifications)->take(5);
     <div class="sidebar-header border-bottom">
         <div class="sidebar-brand d-sm-flex justify-content-center">
             <a href="/">
-                <img class="sidebar-brand-full" src="{{ asset('img/MEDHIJRAH-blue.png') }}" alt="{{ app_name() }}"
+                <img class="sidebar-brand-full" src="{{ asset('img/MEDIHIJRAH-blue.png') }}" alt="{{ app_name() }}"
                     height="46">
-                <img class="sidebar-brand-narrow" src="{{ asset('img/MEDHIJRAH-blue.png') }}" alt="{{ app_name() }}"
+                <img class="sidebar-brand-narrow" src="{{ asset('img/MEDIHIJRAH-blue.png') }}" alt="{{ app_name() }}"
                     height="46">
             </a>
         </div>

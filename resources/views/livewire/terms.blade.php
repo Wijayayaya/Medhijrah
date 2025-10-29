@@ -7,10 +7,10 @@
                 Welcome to {{ app_name() }}!
             </p>
             <p>
-                MedHijrah Team and <a href="https://psti.unisayogya.ac.id/" target="_blank">contributors</a> built the
+                Medihijrah Team and <a href="https://psti.unisayogya.ac.id/" target="_blank">contributors</a> built the
                 {{ config('app.name') }} as
                 an Medical Tourism Website. This SERVICE is provided by
-                <a href="#" target="_blank">MedHijrah Team</a> at no cost and is intended for use as
+                <a href="#" target="_blank">Medihijrah Team</a> at no cost and is intended for use as
                 is.
             </p>
             <p>

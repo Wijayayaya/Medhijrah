@@ -50,7 +50,7 @@ function initializeMainChat() {
         );
 
         document.getElementById("chatHeader").innerHTML =
-            'MedHijrah Assistant <div class="chat-close" id="chatClose">×</div>';
+            'Medihijrah Assistant <div class="chat-close" id="chatClose">×</div>';
 
         const chatBody = document.getElementById("chatBody");
         chatBody.innerHTML = `
@@ -70,7 +70,7 @@ function initializeMainChat() {
                         <path class="robot-arm" d="M15,18 L19,20" stroke="#8E54E9" stroke-width="1.5" stroke-linecap="round" />
                     </svg>
                 </div>
-                    <div class="welcome-title">MedHijrah Assistant</div>
+                    <div class="welcome-title">Medihijrah Assistant</div>
                 <div class="welcome-subtitle">Pilih layanan yang Anda butuhkan</div>
                 
                 <div class="welcome-options">

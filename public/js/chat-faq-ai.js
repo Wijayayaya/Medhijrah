@@ -1,31 +1,31 @@
 // Combined FAQ and AI Chat System
 let faqData = {
     Umum: {
-        "Apa itu MedHijrah?":
-            "MedHijrah adalah website yang menyediakan informasi lengkap mengenai layanan kesehatan dan destinasi wisata di Yogyakarta, khusus untuk wisatawan medical tourism.",
-        "Apa tujuan dari MedHijrah?":
+        "Apa itu Medihijrah?":
+            "Medihijrah adalah website yang menyediakan informasi lengkap mengenai layanan kesehatan dan destinasi wisata di Yogyakarta, khusus untuk wisatawan medical tourism.",
+        "Apa tujuan dari Medihijrah?":
             "Untuk menghubungkan wisatawan dengan layanan kesehatan berkualitas serta destinasi wisata di Yogyakarta.",
-        "Siapa saja yang bisa menggunakan MedHijrah?":
+        "Siapa saja yang bisa menggunakan Medihijrah?":
             "Wisatawan lokal maupun mancanegara.",
-        "Apakah MedHijrah bekerja sama dengan rumah sakit resmi?":
+        "Apakah Medihijrah bekerja sama dengan rumah sakit resmi?":
             "Belum, untuk sekarang kami hanya menyediakan informasi dan belum bekerja sama langsung dengan rumah sakit dan klinik terakreditasi di Yogyakarta.",
-        "Apa manfaat menggunakan MedHijrah?":
+        "Apa manfaat menggunakan Medihijrah?":
             "Memudahkan Anda dalam mencari layanan kesehatan dan wisata dalam satu platform terpadu.",
-        "Apakah MedHijrah aman digunakan?":
+        "Apakah Medihijrah aman digunakan?":
             "Ya, data pengguna dilindungi dengan enkripsi dan sistem keamanan untuk menjaga privasi Anda.",
-        "Apakah MedHijrah punya layanan 24 jam?":
+        "Apakah Medihijrah punya layanan 24 jam?":
             "Website dapat diakses 24 jam. Fitur live chat juga tersedia selama jam operasional.",
-        "Bagaimana cara menggunakan MedHijrah?":
+        "Bagaimana cara menggunakan Medihijrah?":
             "Cukup buka website kami, lalu pilih fitur yang Anda butuhkan, seperti Medical Care, Paket Wisata, dan lainnya.",
-        "Siapa pengelola MedHijrah?":
-            "MedHijrah dikelola oleh tim profesional dengan dukungan dari para pemangku kepentingan di sektor kesehatan dan pariwisata Yogyakarta.",
-        "Apakah MedHijrah bisa dipakai oleh agen perjalanan?":
+        "Siapa pengelola Medihijrah?":
+            "Medihijrah dikelola oleh tim profesional dengan dukungan dari para pemangku kepentingan di sektor kesehatan dan pariwisata Yogyakarta.",
+        "Apakah Medihijrah bisa dipakai oleh agen perjalanan?":
             "Tentu saja. Kami membuka peluang kolaborasi untuk agen perjalanan dan penyedia layanan kesehatan.",
     },
     "Medical Care": {
         "Apa itu fitur Medical Care?":
             "Fitur ini menyediakan informasi lengkap mengenai dokter, spesialisasi, jadwal, dan layanan di berbagai rumah sakit di Yogyakarta.",
-        "Apa saja spesialisasi dokter di MedHijrah?":
+        "Apa saja spesialisasi dokter di Medihijrah?":
             "Kami menyediakan informasi untuk berbagai spesialisasi, seperti Kardiologi, Gigi, Kulit, THT, Bedah Plastik, dan masih banyak lagi.",
         "Apakah bisa mencari dokter berdasarkan spesialisasi?":
             "Ya, Anda dapat menggunakan filter pencarian untuk menemukan dokter berdasarkan spesialisasi yang Anda butuhkan.",
@@ -35,7 +35,7 @@ let faqData = {
             "Ya, informasi jadwal praktik dokter tersedia di setiap profil rumah sakit atau klinik.",
         "Apakah ada layanan untuk perawatan ibu dan anak?":
             "Tersedia. Kami menyediakan informasi layanan seperti kandungan, kebidanan, dan kesehatan anak-anak.",
-        "Apakah MedHijrah memberikan informasi rawat inap?":
+        "Apakah Medihijrah memberikan informasi rawat inap?":
             "Ya, kami menyediakan informasi lengkap mengenai fasilitas kamar rawat inap beserta estimasi tarifnya.",
         "Bagaimana saya memilih rumah sakit yang sesuai?":
             "Anda bisa menggunakan filter kami untuk membandingkan rumah sakit berdasarkan spesialisasi, lokasi, dan perkiraan biaya.",
@@ -55,15 +55,15 @@ let faqData = {
             "Salah satu yang terdekat adalah RS Nur Hidayah, yang berjarak sekitar 6 km dari Candi Prambanan.",
         "Rumah sakit dekat Parangtritis?":
             "RSUP Dr. Sardjito adalah salah satu rumah sakit besar yang berjarak sekitar 27 km dari pantai Parangtritis.",
-        "Apakah ada peta lokasi di MedHijrah?":
+        "Apakah ada peta lokasi di Medihijrah?":
             "Ya, kami menyediakan peta interaktif untuk setiap fasilitas medis agar Anda mudah menemukan lokasinya.",
         "Bagaimana akses transportasi ke rumah sakit?":
             "Informasi mengenai transportasi umum dan taksi online tersedia di halaman detail setiap rumah sakit.",
         "Apakah ada klinik dekat Museum Affandi?":
             "Ya, ada beberapa klinik pratama dan apotek yang lokasinya tidak jauh dari Museum Affandi.",
-        "Apakah tersedia ambulans dalam MedHijrah?":
+        "Apakah tersedia ambulans dalam Medihijrah?":
             "Kami tidak menyediakan layanan ambulans secara langsung, tetapi beberapa rumah sakit mencantumkan kontak layanan ambulans mereka.",
-        "Apakah MedHijrah mencantumkan jam operasional fasilitas medis?":
+        "Apakah Medihijrah mencantumkan jam operasional fasilitas medis?":
             "Ya, setiap profil fasilitas medis mencantumkan jam operasional mereka secara jelas.",
     },
     "Medical Cost": {
@@ -71,7 +71,7 @@ let faqData = {
             "Fitur ini memberikan estimasi biaya untuk berbagai layanan medis di Yogyakarta agar Anda bisa merencanakan anggaran.",
         "Berapa biaya pemeriksaan umum?":
             "Estimasi biaya pemeriksaan umum berkisar antara Rp100.000 hingga Rp300.000.",
-        "Biaya perawatan gigi di MedHijrah?":
+        "Biaya perawatan gigi di Medihijrah?":
             "Tergantung jenis perawatannya, biayanya bisa berkisar dari Rp500.000 hingga Rp2.000.000.",
         "Apakah biaya medical check-up tersedia?":
             "Ya, kami menyediakan informasi paket medical check-up dengan harga mulai dari Rp1.000.000.",
@@ -83,7 +83,7 @@ let faqData = {
             "Ini tergantung pada kebijakan masing-masing fasilitas. Informasi lengkap biasanya dicantumkan di detail layanan.",
         "Bagaimana cara estimasi biaya?":
             "Anda dapat menggunakan fitur simulasi biaya kami dengan memasukkan jenis layanan dan rumah sakit yang Anda inginkan.",
-        "Biaya operasi ringan di MedHijrah?":
+        "Biaya operasi ringan di Medihijrah?":
             "Estimasi biaya untuk operasi ringan dimulai dari Rp2.000.000, tergantung pada jenis tindakan medisnya.",
         "Biaya pengobatan tradisional seperti bekam?":
             "Untuk pengobatan tradisional seperti bekam, biayanya berkisar antara Rp100.000 hingga Rp300.000.",
@@ -98,8 +98,8 @@ let faqData = {
         "Jadwal praktik dokter bisa dilihat?":
             "Ya, jadwal praktik dokter tersedia dan diperbarui secara berkala di halaman masing-masing rumah sakit.",
         "Apakah rumah sakit memiliki akreditasi?":
-            "Ya, semua rumah sakit yang terdaftar di MedHijrah telah memiliki sertifikasi dan akreditasi nasional.",
-        "Bisa konsultasi langsung lewat MedHijrah?":
+            "Ya, semua rumah sakit yang terdaftar di Medihijrah telah memiliki sertifikasi dan akreditasi nasional.",
+        "Bisa konsultasi langsung lewat Medihijrah?":
             "Anda bisa memulai percakapan melalui live chat atau menggunakan form konsultasi yang tersedia.",
         "Apakah rumah sakit terhubung dengan asuransi?":
             "Beberapa rumah sakit telah bekerja sama dengan penyedia asuransi tertentu. Detailnya ada di profil rumah sakit.",
@@ -118,7 +118,7 @@ let faqData = {
         "Siapa saja praktisi jamu di Jogja?":
             "Kami menyediakan daftar praktisi jamu yang bersertifikat dan terpercaya di Yogyakarta.",
         "Pengobatan tradisional aman nggak?":
-            "MedHijrah hanya mencantumkan informasi praktisi atau layanan yang memiliki izin resmi untuk menjamin keamanan Anda.",
+            "Medihijrah hanya mencantumkan informasi praktisi atau layanan yang memiliki izin resmi untuk menjamin keamanan Anda.",
         "Apakah bisa booking pengobatan tradisional?":
             "Saat ini kami belum menyediakan fitur booking, namun kami menyediakan informasi lokasi dan nomor kontak yang dapat dihubungi.",
         "Apakah jamu tersedia dalam paket?":
@@ -136,7 +136,7 @@ window.aiMessages = [
     {
         role: "system",
         content:
-            "Anda adalah asisten AI untuk MedHijrah, sebuah website yang menyediakan informasi lengkap mengenai layanan kesehatan dan destinasi wisata di Yogyakarta untuk wisatawan medical tourism. Berikan informasi yang akurat, sopan, dan ramah. Jika pengguna bertanya tentang hal yang tidak terkait dengan MedHijrah atau medical tourism di Yogyakarta, arahkan mereka kembali ke topik yang relevan.",
+            "Anda adalah asisten AI untuk Medihijrah, sebuah website yang menyediakan informasi lengkap mengenai layanan kesehatan dan destinasi wisata di Yogyakarta untuk wisatawan medical tourism. Berikan informasi yang akurat, sopan, dan ramah. Jika pengguna bertanya tentang hal yang tidak terkait dengan Medihijrah atau medical tourism di Yogyakarta, arahkan mereka kembali ke topik yang relevan.",
     },
 ];
 
@@ -150,7 +150,7 @@ function initializeFaqAiChat() {
     currentCategory = null;
 
     // Welcome message
-    addMessage("bot", "Selamat datang di MedHijrah FAQ & AI Assistant! 🤖");
+    addMessage("bot", "Selamat datang di Medihijrah FAQ & AI Assistant! 🤖");
     addMessage("bot", "Saya dapat membantu Anda dengan dua cara:");
     addMessage(
         "bot",
@@ -330,7 +330,7 @@ async function handleFaqAiMessage(message) {
                         Authorization:
                             "Bearer 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",
                         "HTTP-Referer": window.location.href, // Recommended by OpenRouter
-                        "X-Title": "MedHijrah", // Recommended by OpenRouter
+                        "X-Title": "Medihijrah", // Recommended by OpenRouter
                         "Content-Type": "application/json",
                     },
                     body: JSON.stringify({

@@ -72,7 +72,7 @@ console.log("🔄 Loading chat-cs.js...")(
                     } else {
                         addMessageSafe(
                             "bot",
-                            "👋 Halo! Saya customer service MedHijrah. Ada yang bisa saya bantu?"
+                            "👋 Halo! Saya customer service Medihijrah. Ada yang bisa saya bantu?"
                         );
                     }
 

@@ -42,10 +42,10 @@ jobs:
             --exclude='.git/' \
             --no-perms --no-group --omit-dir-times \
             "${{ github.workspace }}/" \
-            /home/medhijrah.my.id/public_html/
+            /home/medihijrah.my.id/public_html/
 
       - name: Recreate storage symlink
         run: |
-          rm -f /home/medhijrah.my.id/public_html/public/storage
-          cd /home/medhijrah.my.id/public_html
+          rm -f /home/medihijrah.my.id/public_html/public/storage
+          cd /home/medihijrah.my.id/public_html
           php artisan storage:link
