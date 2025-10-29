@@ -28,6 +28,9 @@ class DatabaseSeeder extends Seeder
         $this->call([
             HealthInformationSeeder::class,
             AmbulanceSeeder::class,
+            ArticleSeeder::class,
+            DashboardAdminSeeder::class,
+            QuizSeeder::class,
         ]);
     }
 }
